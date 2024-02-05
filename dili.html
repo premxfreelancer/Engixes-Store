@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: Arial, sans-serif;
+}
+
+form {
+  width: 300px;
+  margin: 0 auto;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+</style>
+</head>
+<body>
+
+<h2>Order Form</h2>
+
+<form action="thanks.html">
+    <label for="location">Location:</label><br>
+    <input type="text" id="location" name="location" required><br>
+    <label for="city">City:</label><br>
+    <input type="text" id="city" name="city" required><br>
+    <label for="district">District:</label><br>
+    <input type="text" id="district" name="district" required><br>
+    <label for="country">Country:</label><br>
+    <input type="text" id="country" name="country" required><br>
+    <label for="state">State:</label><br>
+    <input type="text" id="state" name="state" required><br>
+    <label for="pincode">Pin Code:</label><br>
+    <input type="text" id="pincode" name="pincode" required><br>
+    <input type="submit" value="Submit">
+  </form>
+  
+
+</body>
+</html>
