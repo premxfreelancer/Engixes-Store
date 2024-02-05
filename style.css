@@ -60,6 +60,13 @@ display: flex;
     background-color: green; */
     height: 100%;
 }
+.imagebox .widthjust {
+    /* width: 50%;
+    height: 100%;
+    background-color: green; */
+    width: 100%;
+}
+
 
 .infobox {
     width: 50%;
@@ -83,8 +90,10 @@ display: flex;
     display: flex;
     align-items: center;
     height: calc(100% / 3);
+    font-weight: 900;
     /* background: rgb(84, 84, 47); */
 }
+
 .ordersection {
     width: 100%;
     height: calc(100% / 3);
